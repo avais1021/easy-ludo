@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Aboreto', cursive; */
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Mingzat', sans-serif; */
+    font-family: 'Noto Serif', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Splash', cursive; */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.support {
+    display: inline-block;
+    width: 100%;
+}
+
+/* /////////// */
+
+.one {
+    background: url(G8jMhF.webp)no-repeat center center/cover;
+    height: 100vh;
+}
+
+.ludo h1 {
+    text-align: center;
+}
+
+.par-dices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.di-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.di-img img {
+    width: 100%;
+    height: 100%;
+    /* opacity: 0;
+    transition: opacity 2s linear; */
+}
+
+/* .true{
+    opacity: 1 !important;
+} */
+
+.dice {
+    text-align: center;
+}
+
+.dice p {
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(white, rgb(129, 129, 129));
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 5px rgb(122 122 122), inset 5px 5px 5px rgb(255 255 255), inset -5px -5px 5px white;
+    text-shadow: 2px 0px 0px #fff4d5;
+}
+
+.ludo h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: -5px -5px 5px rgb(122 122 122), inset 5px 5px 5px rgb(255 255 255), inset -5px -5px 5px white;
+    text-shadow: 4px 0px 0px #a51717;
+    margin-top: 30px;
+}
+
+.b-t-as {
+    display: block;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 0 0 #2b9d2b;
+    letter-spacing: 4px;
+    box-shadow: -5px -5px 0 white;
+}
+
+.opa1{
+    opacity: 1;
+}
+.opa2{
+    opacity: 1;
+}
